@@ -7,3 +7,12 @@ c:\users\lab3\documents\visual studio 2013\Projects\Protecto00006\Protecto00006\
 c:\users\lab3\documents\visual studio 2013\Projects\Protecto00006\Protecto00006\obj\Debug\Protecto00006.csproj.GenerateResource.Cache
 c:\users\lab3\documents\visual studio 2013\Projects\Protecto00006\Protecto00006\obj\Debug\Protecto00006.exe
 c:\users\lab3\documents\visual studio 2013\Projects\Protecto00006\Protecto00006\obj\Debug\Protecto00006.pdb
+C:\Users\Lab3\Desktop\Nueva carpeta\Parcial2-master\Protecto00006\Protecto00006\bin\Debug\Protecto00006.exe.config
+C:\Users\Lab3\Desktop\Nueva carpeta\Parcial2-master\Protecto00006\Protecto00006\obj\Debug\Protecto00006.exe
+C:\Users\Lab3\Desktop\Nueva carpeta\Parcial2-master\Protecto00006\Protecto00006\obj\Debug\Protecto00006.pdb
+C:\Users\Lab3\Desktop\Nueva carpeta\Parcial2-master\Protecto00006\Protecto00006\bin\Debug\Protecto00006.exe
+C:\Users\Lab3\Desktop\Nueva carpeta\Parcial2-master\Protecto00006\Protecto00006\bin\Debug\Protecto00006.pdb
+C:\Users\Lab3\Desktop\Nueva carpeta\Parcial2-master\Protecto00006\Protecto00006\obj\Debug\Protecto00006.csprojResolveAssemblyReference.cache
+C:\Users\Lab3\Desktop\Nueva carpeta\Parcial2-master\Protecto00006\Protecto00006\obj\Debug\Protecto00006.Form1.resources
+C:\Users\Lab3\Desktop\Nueva carpeta\Parcial2-master\Protecto00006\Protecto00006\obj\Debug\Protecto00006.Properties.Resources.resources
+C:\Users\Lab3\Desktop\Nueva carpeta\Parcial2-master\Protecto00006\Protecto00006\obj\Debug\Protecto00006.csproj.GenerateResource.Cache

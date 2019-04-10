@@ -25,25 +25,33 @@ namespace Protecto00006
             DriveInfo d = new DriveInfo(unidades);
             listBox2.Items.Add("Disco: " + d.Name + "\n");
 
-            if(d.IsReady)
-
+            if (d.IsReady)
             {
                 listBox2.Items.Add("Espacio ocupado (GB): " + (d.TotalSize + d.AvailableFreeSpace) / 1024 / 1024 / 1024 + "\n");
-                listBox2.Items.Add("Espacio ocupado (GB): " + (d.TotalFreeSpace)/1024/1024/ 1024 + "\n");
+                listBox2.Items.Add("Espacio ocupado (GB): " + (d.TotalFreeSpace) / 1024 / 1024 / 1024 + "\n");
                 listBox2.Items.Add("Espacio ocupado (GB): " + (d.TotalSize) / 1024 / 1024 / 1024 + "\n");
-            
+
             }
-            listBox2.Items.Add("Tipos de disco utilizado "+d.DriveType.ToString()+"\n");
+            listBox2.Items.Add("Tipos de disco utilizado " + d.DriveType.ToString() + "\n");
 
             treeView1.Nodes.Clear();
-            if(d.IsReady)
+            if (d.IsReady)
             {
-                DirectoryInfo dir = new DirectoryInfo (unidades);
-              
-
+                DirectoryInfo dir = new DirectoryInfo(unidades);
+                foreach (DirectoryInfo sub in dir.GetDirectories())
+                {
+                    treeView1.Nodes.Add(sub.Name);
+                    
+                }
+                foreach (FileInfo file in dir.GetFiles())
+                {
+                    TreeNode nodo = new TreeNode();
+                    nodo.Text = file.Name;
+                    nodo.ForeColor = Color.Blue;
+                    treeView1.Nodes.Add(nodo);
+                }
 
             }
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -68,6 +76,35 @@ namespace Protecto00006
 
                 }            
             }
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String Dir = "C:/test";
+            String arch = "C:prueba.txt";
+            if (!Directory.Exists(Dir))
+            {
+                Directory.CreateDirectory(Dir);
+            }
+            else { MessageBox.Show("Existe el Directorio"); }
+            if (!File.Exists(arch))
+            {
+                File.Create(arch);
+            }
+            else { MessageBox.Show("Existe el Archivo"); }
+
+
+
         }
     }
 }
