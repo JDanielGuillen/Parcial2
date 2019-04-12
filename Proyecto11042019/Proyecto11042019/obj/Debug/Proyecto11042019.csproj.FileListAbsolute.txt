@@ -1,0 +1,9 @@
+c:\users\lab3\documents\visual studio 2013\Projects\Proyecto11042019\Proyecto11042019\bin\Debug\Proyecto11042019.exe.config
+c:\users\lab3\documents\visual studio 2013\Projects\Proyecto11042019\Proyecto11042019\obj\Debug\Proyecto11042019.csprojResolveAssemblyReference.cache
+c:\users\lab3\documents\visual studio 2013\Projects\Proyecto11042019\Proyecto11042019\obj\Debug\Proyecto11042019.MDIParent1.resources
+c:\users\lab3\documents\visual studio 2013\Projects\Proyecto11042019\Proyecto11042019\obj\Debug\Proyecto11042019.Properties.Resources.resources
+c:\users\lab3\documents\visual studio 2013\Projects\Proyecto11042019\Proyecto11042019\obj\Debug\Proyecto11042019.csproj.GenerateResource.Cache
+c:\users\lab3\documents\visual studio 2013\Projects\Proyecto11042019\Proyecto11042019\bin\Debug\Proyecto11042019.exe
+c:\users\lab3\documents\visual studio 2013\Projects\Proyecto11042019\Proyecto11042019\bin\Debug\Proyecto11042019.pdb
+c:\users\lab3\documents\visual studio 2013\Projects\Proyecto11042019\Proyecto11042019\obj\Debug\Proyecto11042019.exe
+c:\users\lab3\documents\visual studio 2013\Projects\Proyecto11042019\Proyecto11042019\obj\Debug\Proyecto11042019.pdb
